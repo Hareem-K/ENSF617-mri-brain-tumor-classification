@@ -1,6 +1,5 @@
-# ENSF617-mri-brain-tumor-classification
-
 # Brain Tumor Classification using Transfer Learning
+### ENSF 617 FInal Project
 
 ## Overview
 

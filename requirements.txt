@@ -1,9 +1,29 @@
-torch
-torchvision
-numpy
-matplotlib
-scikit-learn
-pandas
-tqdm
-kaggle
-Pillow
+# ============================================================
+#  Brain Tumor MRI Classification — Requirements
+#  Compatible with Google Colab (Python 3.12, NumPy 2.x)
+# ============================================================
+
+# ── Model zoo (pretrained backbones)
+timm>=1.0.0
+
+# ── Augmentation
+albumentations>=2.0.0
+opencv-python-headless>=4.10.0.84   # Must be 4.10+ for NumPy 2.x
+
+# ── Grad-CAM visualizations
+grad-cam>=1.5.0
+
+# ── Data science & evaluation
+scikit-learn>=1.4.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.13.0
+Pillow>=10.0.0
+
+# ── Experiment tracking & utilities
+tqdm>=4.65.0
+PyYAML>=6.0
+kaggle>=1.6.0
+
+# ── Logging
+tensorboard>=2.16.0

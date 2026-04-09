@@ -1,0 +1,144 @@
+
+============================================================
+Experiment: baseline_efficientnet_b3
+Backbone  : efficientnet_b3
+Accuracy  : 89.44%
+Macro F1  : 0.8914
+Macro AUC : 0.978
+============================================================
+              precision    recall  f1-score   support
+
+      glioma       0.96      0.71      0.82       400
+  meningioma       0.81      0.90      0.85       400
+     notumor       0.91      0.99      0.95       400
+   pituitary       0.92      0.98      0.95       400
+
+    accuracy                           0.89      1600
+   macro avg       0.90      0.89      0.89      1600
+weighted avg       0.90      0.89      0.89      1600
+
+============================================================
+Experiment: baseline_resnet50
+Backbone  : resnet50
+Accuracy  : 82.88%
+Macro F1  : 0.8241
+Macro AUC : 0.9583
+============================================================
+              precision    recall  f1-score   support
+
+      glioma       0.89      0.68      0.77       400
+  meningioma       0.74      0.71      0.73       400
+     notumor       0.83      0.98      0.90       400
+   pituitary       0.87      0.94      0.90       400
+
+    accuracy                           0.83      1600
+   macro avg       0.83      0.83      0.82      1600
+weighted avg       0.83      0.83      0.82      1600
+
+============================================================
+Experiment: baseline_densenet121
+Backbone  : densenet121
+Accuracy  : 91.88%
+Macro F1  : 0.9171
+Macro AUC : 0.9882
+============================================================
+              precision    recall  f1-score   support
+
+      glioma       0.97      0.77      0.86       400
+  meningioma       0.85      0.92      0.88       400
+     notumor       0.92      1.00      0.96       400
+   pituitary       0.95      0.98      0.97       400
+
+    accuracy                           0.92      1600
+   macro avg       0.92      0.92      0.92      1600
+weighted avg       0.92      0.92      0.92      1600
+
+============================================================
+Experiment: baseline_vgg16
+Backbone  : vgg16
+Accuracy  : 94.31%
+Macro F1  : 0.9421
+Macro AUC : 0.9925
+============================================================
+              precision    recall  f1-score   support
+
+      glioma       0.98      0.81      0.89       400
+  meningioma       0.88      0.97      0.92       400
+     notumor       0.95      1.00      0.97       400
+   pituitary       0.98      0.99      0.98       400
+
+    accuracy                           0.94      1600
+   macro avg       0.95      0.94      0.94      1600
+weighted avg       0.95      0.94      0.94      1600
+
+============================================================
+Experiment: ablation_dropout_0
+Backbone  : efficientnet_b3
+Accuracy  : 90.12%
+Macro F1  : 0.8987
+Macro AUC : 0.9792
+============================================================
+              precision    recall  f1-score   support
+
+      glioma       0.96      0.74      0.83       400
+  meningioma       0.83      0.89      0.86       400
+     notumor       0.90      0.99      0.95       400
+   pituitary       0.93      0.98      0.95       400
+
+    accuracy                           0.90      1600
+   macro avg       0.91      0.90      0.90      1600
+weighted avg       0.91      0.90      0.90      1600
+
+============================================================
+Experiment: ablation_dropout_5
+Backbone  : efficientnet_b3
+Accuracy  : 87.69%
+Macro F1  : 0.8737
+Macro AUC : 0.9749
+============================================================
+              precision    recall  f1-score   support
+
+      glioma       0.97      0.70      0.81       400
+  meningioma       0.79      0.84      0.82       400
+     notumor       0.88      0.99      0.93       400
+   pituitary       0.89      0.97      0.93       400
+
+    accuracy                           0.88      1600
+   macro avg       0.88      0.88      0.87      1600
+weighted avg       0.88      0.88      0.87      1600
+
+============================================================
+Experiment: ablation_no_label_smooth
+Backbone  : efficientnet_b3
+Accuracy  : 88.88%
+Macro F1  : 0.8859
+Macro AUC : 0.9772
+============================================================
+              precision    recall  f1-score   support
+
+      glioma       0.97      0.72      0.83       400
+  meningioma       0.82      0.87      0.84       400
+     notumor       0.88      0.99      0.93       400
+   pituitary       0.91      0.97      0.94       400
+
+    accuracy                           0.89      1600
+   macro avg       0.89      0.89      0.89      1600
+weighted avg       0.89      0.89      0.89      1600
+
+============================================================
+Experiment: ablation_high_weight_decay
+Backbone  : efficientnet_b3
+Accuracy  : 90.38%
+Macro F1  : 0.9014
+Macro AUC : 0.9786
+============================================================
+              precision    recall  f1-score   support
+
+      glioma       0.96      0.74      0.84       400
+  meningioma       0.83      0.90      0.87       400
+     notumor       0.91      0.99      0.95       400
+   pituitary       0.93      0.98      0.95       400
+
+    accuracy                           0.90      1600
+   macro avg       0.91      0.90      0.90      1600
+weighted avg       0.91      0.90      0.90      1600

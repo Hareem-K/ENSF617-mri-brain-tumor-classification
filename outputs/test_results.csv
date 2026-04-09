@@ -1,0 +1,9 @@
+Experiment,Backbone,Dropout,Label Smooth,Weight Decay,Accuracy (%),Macro F1,Macro AUC,F1 Glioma,F1 Meningioma,F1 Notumor,F1 Pituitary
+baseline_vgg16,vgg16,0.3,0.1,0.0001,94.31,0.9421,0.9925,0.8919,0.9205,0.9721,0.9838
+baseline_densenet121,densenet121,0.3,0.1,0.0001,91.88,0.9171,0.9882,0.8619,0.8828,0.9568,0.9668
+ablation_high_weight_decay,efficientnet_b3,0.3,0.1,0.001,90.38,0.9014,0.9786,0.8371,0.8651,0.9496,0.9539
+ablation_dropout_0,efficientnet_b3,0.0,0.1,0.0001,90.12,0.8987,0.9792,0.8345,0.8613,0.9465,0.9526
+baseline_efficientnet_b3,efficientnet_b3,0.3,0.1,0.0001,89.44,0.8914,0.978,0.8173,0.8517,0.9498,0.9467
+ablation_no_label_smooth,efficientnet_b3,0.3,0.0,0.0001,88.88,0.8859,0.9772,0.8264,0.8422,0.9319,0.9432
+ablation_dropout_5,efficientnet_b3,0.5,0.1,0.0001,87.69,0.8737,0.9749,0.8128,0.8184,0.933,0.9305
+baseline_resnet50,resnet50,0.3,0.1,0.0001,82.88,0.8241,0.9583,0.7677,0.7268,0.9016,0.9004

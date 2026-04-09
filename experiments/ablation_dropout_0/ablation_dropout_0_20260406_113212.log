@@ -1,0 +1,80 @@
+2026-04-06 11:32:12 | INFO     | Log file: /content/drive/MyDrive/brain_tumor_classification/experiments/ablation_dropout_0/ablation_dropout_0_20260406_113212.log
+2026-04-06 11:32:12 | INFO     | ====================================================
+2026-04-06 11:32:12 | INFO     |   Experiment : ablation_dropout_0
+2026-04-06 11:32:12 | INFO     |   Backbone   : efficientnet_b3
+2026-04-06 11:32:12 | INFO     |   Dropout    : 0.0
+2026-04-06 11:32:12 | INFO     |   Label smooth: 0.1
+2026-04-06 11:32:12 | INFO     | ====================================================
+2026-04-06 11:32:12 | INFO     | Device: cuda
+2026-04-06 11:32:12 | INFO     | Loading DataLoaders...
+2026-04-06 11:32:12 | INFO     | Train: 4480 images | Val: 1120 images
+2026-04-06 11:32:12 | INFO     | Building model: efficientnet_b3
+2026-04-06 11:32:13 | INFO     | >>> PHASE 1: Warmup — backbone frozen <<<
+2026-04-06 11:33:01 | INFO     | Epoch 01/30 | Train — Loss: 0.9113  Acc: 0.6824  F1: 0.6815 | Val   — Loss: 0.6499  Acc: 0.8482  F1: 0.8488
+2026-04-06 11:33:01 | INFO     |   --> New best model saved (Val F1: 0.8488)
+2026-04-06 11:33:43 | INFO     | Epoch 02/30 | Train — Loss: 0.7840  Acc: 0.7719  F1: 0.7708 | Val   — Loss: 0.6041  Acc: 0.8804  F1: 0.8787
+2026-04-06 11:33:43 | INFO     |   --> New best model saved (Val F1: 0.8787)
+2026-04-06 11:34:25 | INFO     | Epoch 03/30 | Train — Loss: 0.7509  Acc: 0.7882  F1: 0.7875 | Val   — Loss: 0.5839  Acc: 0.8893  F1: 0.8886
+2026-04-06 11:34:26 | INFO     |   --> New best model saved (Val F1: 0.8886)
+2026-04-06 11:35:08 | INFO     | Epoch 04/30 | Train — Loss: 0.7393  Acc: 0.7902  F1: 0.7891 | Val   — Loss: 0.5779  Acc: 0.8911  F1: 0.8898
+2026-04-06 11:35:08 | INFO     |   --> New best model saved (Val F1: 0.8898)
+2026-04-06 11:35:50 | INFO     | Epoch 05/30 | Train — Loss: 0.7170  Acc: 0.8040  F1: 0.8036 | Val   — Loss: 0.5758  Acc: 0.8938  F1: 0.8929
+2026-04-06 11:35:50 | INFO     |   --> New best model saved (Val F1: 0.8929)
+2026-04-06 11:35:50 | INFO     | >>> PHASE 2: Fine-tuning — top layers unfrozen <<<
+2026-04-06 11:36:31 | INFO     | Epoch 06/30 | Train — Loss: 0.7090  Acc: 0.8125  F1: 0.8118 | Val   — Loss: 0.5685  Acc: 0.8964  F1: 0.8954
+2026-04-06 11:36:32 | INFO     |   --> New best model saved (Val F1: 0.8954)
+2026-04-06 11:37:14 | INFO     | Epoch 07/30 | Train — Loss: 0.7160  Acc: 0.8129  F1: 0.8123 | Val   — Loss: 0.5594  Acc: 0.9062  F1: 0.9056
+2026-04-06 11:37:14 | INFO     |   --> New best model saved (Val F1: 0.9056)
+2026-04-06 11:37:58 | INFO     | Epoch 08/30 | Train — Loss: 0.7119  Acc: 0.8138  F1: 0.8134 | Val   — Loss: 0.5575  Acc: 0.9071  F1: 0.9066
+2026-04-06 11:37:58 | INFO     |   --> New best model saved (Val F1: 0.9066)
+2026-04-06 11:38:41 | INFO     | Epoch 09/30 | Train — Loss: 0.6882  Acc: 0.8259  F1: 0.8252 | Val   — Loss: 0.5537  Acc: 0.9045  F1: 0.9035
+2026-04-06 11:38:41 | INFO     |   No improvement. Patience: 1/7
+2026-04-06 11:39:24 | INFO     | Epoch 10/30 | Train — Loss: 0.6982  Acc: 0.8170  F1: 0.8166 | Val   — Loss: 0.5535  Acc: 0.9027  F1: 0.9026
+2026-04-06 11:39:24 | INFO     |   No improvement. Patience: 2/7
+2026-04-06 11:40:07 | INFO     | Epoch 11/30 | Train — Loss: 0.6947  Acc: 0.8259  F1: 0.8250 | Val   — Loss: 0.5504  Acc: 0.9045  F1: 0.9040
+2026-04-06 11:40:07 | INFO     |   No improvement. Patience: 3/7
+2026-04-06 11:40:50 | INFO     | Epoch 12/30 | Train — Loss: 0.6939  Acc: 0.8194  F1: 0.8190 | Val   — Loss: 0.5465  Acc: 0.9071  F1: 0.9071
+2026-04-06 11:40:50 | INFO     |   --> New best model saved (Val F1: 0.9071)
+2026-04-06 11:41:33 | INFO     | Epoch 13/30 | Train — Loss: 0.6860  Acc: 0.8272  F1: 0.8271 | Val   — Loss: 0.5465  Acc: 0.9045  F1: 0.9039
+2026-04-06 11:41:33 | INFO     |   No improvement. Patience: 1/7
+2026-04-06 11:42:13 | INFO     | Epoch 14/30 | Train — Loss: 0.6859  Acc: 0.8283  F1: 0.8277 | Val   — Loss: 0.5442  Acc: 0.9071  F1: 0.9067
+2026-04-06 11:42:13 | INFO     |   No improvement. Patience: 2/7
+2026-04-06 11:42:55 | INFO     | Epoch 15/30 | Train — Loss: 0.6915  Acc: 0.8225  F1: 0.8219 | Val   — Loss: 0.5412  Acc: 0.9089  F1: 0.9088
+2026-04-06 11:42:55 | INFO     |   --> New best model saved (Val F1: 0.9088)
+2026-04-06 11:43:37 | INFO     | Epoch 16/30 | Train — Loss: 0.6788  Acc: 0.8315  F1: 0.8308 | Val   — Loss: 0.5394  Acc: 0.9089  F1: 0.9091
+2026-04-06 11:43:37 | INFO     |   --> New best model saved (Val F1: 0.9091)
+2026-04-06 11:44:20 | INFO     | Epoch 17/30 | Train — Loss: 0.6823  Acc: 0.8288  F1: 0.8286 | Val   — Loss: 0.5428  Acc: 0.9054  F1: 0.9048
+2026-04-06 11:44:20 | INFO     |   No improvement. Patience: 1/7
+2026-04-06 11:45:02 | INFO     | Epoch 18/30 | Train — Loss: 0.6836  Acc: 0.8205  F1: 0.8198 | Val   — Loss: 0.5416  Acc: 0.9107  F1: 0.9104
+2026-04-06 11:45:02 | INFO     |   --> New best model saved (Val F1: 0.9104)
+2026-04-06 11:45:43 | INFO     | Epoch 19/30 | Train — Loss: 0.6858  Acc: 0.8279  F1: 0.8277 | Val   — Loss: 0.5394  Acc: 0.9125  F1: 0.9123
+2026-04-06 11:45:43 | INFO     |   --> New best model saved (Val F1: 0.9123)
+2026-04-06 11:46:25 | INFO     | Epoch 20/30 | Train — Loss: 0.6831  Acc: 0.8295  F1: 0.8289 | Val   — Loss: 0.5428  Acc: 0.9062  F1: 0.9057
+2026-04-06 11:46:25 | INFO     |   No improvement. Patience: 1/7
+2026-04-06 11:46:25 | INFO     | >>> PHASE 3: Full fine-tuning — all layers unfrozen <<<
+2026-04-06 11:47:12 | INFO     | Epoch 21/30 | Train — Loss: 0.6730  Acc: 0.8339  F1: 0.8331 | Val   — Loss: 0.5253  Acc: 0.9170  F1: 0.9167
+2026-04-06 11:47:12 | INFO     |   --> New best model saved (Val F1: 0.9167)
+2026-04-06 11:48:01 | INFO     | Epoch 22/30 | Train — Loss: 0.6577  Acc: 0.8444  F1: 0.8440 | Val   — Loss: 0.5157  Acc: 0.9232  F1: 0.9230
+2026-04-06 11:48:01 | INFO     |   --> New best model saved (Val F1: 0.9230)
+2026-04-06 11:48:49 | INFO     | Epoch 23/30 | Train — Loss: 0.6352  Acc: 0.8569  F1: 0.8567 | Val   — Loss: 0.5031  Acc: 0.9321  F1: 0.9319
+2026-04-06 11:48:50 | INFO     |   --> New best model saved (Val F1: 0.9319)
+2026-04-06 11:49:38 | INFO     | Epoch 24/30 | Train — Loss: 0.6299  Acc: 0.8600  F1: 0.8593 | Val   — Loss: 0.4959  Acc: 0.9313  F1: 0.9312
+2026-04-06 11:49:38 | INFO     |   No improvement. Patience: 1/7
+2026-04-06 11:50:25 | INFO     | Epoch 25/30 | Train — Loss: 0.6174  Acc: 0.8652  F1: 0.8648 | Val   — Loss: 0.4853  Acc: 0.9437  F1: 0.9437
+2026-04-06 11:50:25 | INFO     |   --> New best model saved (Val F1: 0.9437)
+2026-04-06 11:51:14 | INFO     | Epoch 26/30 | Train — Loss: 0.6126  Acc: 0.8688  F1: 0.8684 | Val   — Loss: 0.4799  Acc: 0.9473  F1: 0.9473
+2026-04-06 11:51:14 | INFO     |   --> New best model saved (Val F1: 0.9473)
+2026-04-06 11:52:05 | INFO     | Epoch 27/30 | Train — Loss: 0.6008  Acc: 0.8757  F1: 0.8755 | Val   — Loss: 0.4757  Acc: 0.9545  F1: 0.9545
+2026-04-06 11:52:05 | INFO     |   --> New best model saved (Val F1: 0.9545)
+2026-04-06 11:52:53 | INFO     | Epoch 28/30 | Train — Loss: 0.6061  Acc: 0.8750  F1: 0.8747 | Val   — Loss: 0.4760  Acc: 0.9527  F1: 0.9526
+2026-04-06 11:52:53 | INFO     |   No improvement. Patience: 1/7
+2026-04-06 11:53:44 | INFO     | Epoch 29/30 | Train — Loss: 0.5962  Acc: 0.8766  F1: 0.8764 | Val   — Loss: 0.4725  Acc: 0.9536  F1: 0.9535
+2026-04-06 11:53:44 | INFO     |   No improvement. Patience: 2/7
+2026-04-06 11:54:33 | INFO     | Epoch 30/30 | Train — Loss: 0.5979  Acc: 0.8779  F1: 0.8776 | Val   — Loss: 0.4719  Acc: 0.9554  F1: 0.9554
+2026-04-06 11:54:33 | INFO     |   --> New best model saved (Val F1: 0.9554)
+2026-04-06 11:54:33 | INFO     | ====================================================
+2026-04-06 11:54:33 | INFO     |   Training complete.
+2026-04-06 11:54:33 | INFO     |   Best Val F1  : 0.9554
+2026-04-06 11:54:33 | INFO     |   Model saved  : /content/drive/MyDrive/brain_tumor_classification/experiments/ablation_dropout_0/best_model.pth
+2026-04-06 11:54:33 | INFO     |   Metrics saved: /content/drive/MyDrive/brain_tumor_classification/experiments/ablation_dropout_0/metrics.csv
+2026-04-06 11:54:33 | INFO     | ====================================================

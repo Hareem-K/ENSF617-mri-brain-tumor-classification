@@ -1,0 +1,9 @@
+Experiment,Backbone,Dropout,Label Smooth,Weight Decay,Accuracy (%),Macro F1,Val Loss,Best Epoch
+baseline_efficientnet_b3,efficientnet_b3,0.3,0.1,0.0001,94.29,0.9432,0.4909,29
+baseline_resnet50,resnet50,0.3,0.1,0.0001,89.64,0.8957,0.5607,26
+baseline_densenet121,densenet121,0.3,0.1,0.0001,96.88,0.9689,0.4308,30
+baseline_vgg16,vgg16,0.3,0.1,0.0001,97.95,0.9795,0.391,26
+ablation_dropout_0,efficientnet_b3,0.0,0.1,0.0001,95.54,0.9554,0.4719,30
+ablation_dropout_5,efficientnet_b3,0.5,0.1,0.0001,93.12,0.9316,0.5073,30
+ablation_no_label_smooth,efficientnet_b3,0.3,0.0,0.0001,94.46,0.9447,0.1675,29
+ablation_high_weight_decay,efficientnet_b3,0.3,0.1,0.001,94.55,0.9457,0.4879,30

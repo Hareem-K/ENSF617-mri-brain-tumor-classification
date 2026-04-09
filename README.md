@@ -1,7 +1,16 @@
-# Brain Tumor MRI Classification
+# Evaluating Transfer Learning and Regularization Strategies for Brain Tumor Classification from MRI Images
 
-**Evaluating Transfer Learning and Regularization Strategies for Brain Tumor Classification from MRI Images**
+**ENSF617 - Final Project**
 
+### Group Information
+Group Number: 8
+
+Group Members:
+
+- Hareem Khan
+- Rakin Sad Aftab
+- Angus Cheang
+- Md. Labib Hasan
 ---
 
 ## Table of Contents

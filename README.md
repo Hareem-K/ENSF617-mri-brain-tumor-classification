@@ -5,6 +5,16 @@ A production-level deep learning project for classifying brain tumors
 from MRI images into four classes: **Glioma**, **Meningioma**,
 **Pituitary tumor**, and **No tumor**.
 
+### Group Information
+Group Number: 8
+
+Group Members:
+
+- Hareem Khan
+- Rakin Sad Aftab
+- Angus Cheang
+- Md. Labib Hasan
+  
 ---
 
 ## Project structure
